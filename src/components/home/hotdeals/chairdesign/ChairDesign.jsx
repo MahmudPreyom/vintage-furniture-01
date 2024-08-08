@@ -9,30 +9,30 @@ const ChairDesign = () => {
             <div className="h-3/5 md:w-3/4 lg:w-3/4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-3" >
                 
                 <div>
-                    <div className="grid grid-cols-2 gap-3">
-                        <div className="card rounded-none bg-base-100 shadow-xl h-[195px]">
+                    <div className="grid grid-cols-2 gap-2">
+                        <div className="card rounded bg-base-100 shadow-xl h-[195px]">
                             <figure><img className="" src={ch1} alt="" /></figure>
-                            <div className="card-body">
-                                <p className="text-xl font-semibold">Eames Chair</p>
-                            </div>
+                            {/* <div className="card-body"> */}
+                                <p className="text-xl font-semibold p-1">Eames Chair</p>
+                            {/* </div> */}
                         </div>
-                        <div className="card rounded-none bg-base-100 shadow-xl h-[195px]">
-                            <figure><img className="" src={ch2} alt="Shoes" /></figure>
-                            <div className="card-body">
-                                <p className="text-xl font-semibold">Rocking Chair</p>
-                            </div>
+                        <div className="card rounded bg-base-100 shadow-xl h-[195px]">
+                            <figure><img className="" src={ch2} alt="" /></figure>
+                            {/* <div className="card-body"> */}
+                                <p className="text-xl font-semibold p-1">Rocking Chair</p>
+                            {/* </div> */}
                         </div>
-                        <div className="card rounded-none bg-base-100 shadow-xl h-[195px]">
-                            <figure><img className="" src={ch3} alt="Shoes" /></figure>
-                            <div className="card-body">
-                                <p className="text-xl font-semibold">Adirondack Chair</p>
-                            </div>
+                        <div className="card rounded bg-base-100 shadow-xl h-[195px]">
+                            <figure><img className="" src={ch3} alt="" /></figure>
+                            {/* <div className="card-body"> */}
+                                <p className="text-xl font-semibold p-1">Adirondack Chair</p>
+                            {/* </div> */}
                         </div>
-                        <div className="card rounded-none bg-base-100 shadow-xl h-[195px]">
-                            <figure><img className="" src={ch4} alt="Shoes" /></figure>
-                            <div className="card-body">
-                                <p className="text-xl font-semibold">Wingback Chair</p>
-                            </div>
+                        <div className="card rounded bg-base-100 shadow-xl h-[195px]">
+                            <figure><img className="" src={ch4} alt="" /></figure>
+                            {/* <div className="card-body"> */}
+                                <p className="text-xl font-semibold p-1">Wingback Chair</p>
+                            {/* </div> */}
                         </div>
                     </div>
                 </div>

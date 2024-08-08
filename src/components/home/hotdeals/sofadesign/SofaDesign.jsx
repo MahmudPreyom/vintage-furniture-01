@@ -20,30 +20,30 @@ const SofaDesign = () => {
                     </div>
                 </div>
                 <div>
-                    <div className="grid grid-cols-2 gap-3">
-                        <div className="card rounded-none bg-base-100 shadow-xl h-[195px]">
+                    <div className="grid grid-cols-2 gap-2">
+                        <div className="card rounded bg-base-100 shadow-xl h-[195px]">
                             <figure><img className="" src={s1} alt="" /></figure>
-                            <div className="card-body">
-                                <p className="text-xl font-semibold">Tuxedo Sofa</p>
-                            </div>
+                            {/* <div className="card-body"> */}
+                                <p className="text-xl font-semibold p-1">Tuxedo Sofa</p>
+                            {/* </div> */}
                         </div>
-                        <div className="card rounded-none bg-base-100 shadow-xl h-[195px]">
+                        <div className="card rounded bg-base-100 shadow-xl h-[195px]">
                             <figure><img className="" src={s2} alt="" /></figure>
-                            <div className="card-body">
-                                <p className="text-xl font-semibold">Chester Sofa</p>
-                            </div>
+                            {/* <div className="card-body"> */}
+                                <p className="text-xl font-semibold p-1">Chester Sofa</p>
+                            {/* </div> */}
                         </div>
-                        <div className="card rounded-none bg-base-100 shadow-xl h-[195px]">
+                        <div className="card rounded bg-base-100 shadow-xl h-[195px]">
                             <figure><img className="" src={s3} alt="" /></figure>
-                            <div className="card-body">
-                                <p className="text-xl font-semibold">Sectional Sofa</p>
-                            </div>
+                            {/* <div className="card-body"> */}
+                                <p className="text-xl font-semibold p-1">Sectional Sofa</p>
+                            {/* </div> */}
                         </div>
-                        <div className="card rounded-none bg-base-100 shadow-xl h-[195px]">
+                        <div className="card rounded bg-base-100 shadow-xl h-[195px]">
                             <figure><img className="" src={s4} alt="" /></figure>
-                            <div className="card-body">
-                                <p className="text-xl font-semibold">Mid-Cen Sofa</p>
-                            </div>
+                            {/* <div className="card-body"> */}
+                                <p className="text-xl font-semibold p-1">Mid-Cen Sofa</p>
+                            {/* </div> */}
                         </div>
                     </div>
                 </div>
