@@ -5,13 +5,14 @@ import s4 from "../../../../assets/rsz_sofa-4.jpg"
 
 const SofaDesign = () => {
     return (
-        <div className="mt-7">
+        <div className="mt-7 w-10/12">
             <div className="h-3/5 md:w-3/4 lg:w-3/4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-3" >
+            {/* <div className="h-3/5 md:w-3/4 lg:w-3/4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-3" > */}
                 <div>
                     <div className="hero h-fit  bg-base-200" style={{ backgroundImage: 'url(https://i.ibb.co/Vgf1yg7/sofa-d-2.jpg)' }}>
                         <div className="hero-overlay bg-opacity-25"></div>
                         <div className="hero-content text-center text-white">
-                            <div className="mt-52">
+                            <div className="mt-52 kaku">
                                 <h1 className="mb-2 text-3xl font-medium">FURNITURE</h1>
                                 <h1 className="mb-5 text-5xl font-semibold">SOFA DESIGN</h1>
                                 <button className="btn btn-warning">BUY NOW</button>
