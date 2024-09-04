@@ -5,7 +5,7 @@ import s4 from "../../../../assets/rsz_sofa-4.jpg"
 
 const SofaDesign = () => {
     return (
-        <div className="mt-7 w-10/12">
+        <div className="mt-7">
             <div className="h-3/5 md:w-3/4 lg:w-[1300px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-3" >
             {/* <div className="h-3/5 md:w-3/4 lg:w-3/4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-3" > */}
                 <div>
