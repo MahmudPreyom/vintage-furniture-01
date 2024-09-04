@@ -7,7 +7,7 @@ const ChairDesign = () => {
     return (
         // <div className="w-10/12 mt-10 mb-10">
         <div className="mt-10 mb-10 grid justify-items-end">
-            <div className="h-3/5 md:w-3/4 lg:w-3/4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-3" >
+            <div className="h-3/5 md:w-3/4 lg:w-[1300px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-3" >
             {/* <div className="h-3/5 grid justify-items-end grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-3" > */}
 
                 <div>
@@ -39,7 +39,7 @@ const ChairDesign = () => {
                     </div>
                 </div>
 
-                <div className="grid justify-items-end w-10/12">
+                {/* <div className=""> */}
                 <div className="hero h-[399px] bg-base-200" style={{ backgroundImage: 'url(https://i.ibb.co/wgftXtf/chair-1.jpg)' }}>
                         <div className="hero-overlay bg-opacity-20"></div>
                         <div className="hero-content text-center text-neutral-content">
@@ -49,7 +49,7 @@ const ChairDesign = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                {/* </div> */}
                 
             </div>
         </div>
